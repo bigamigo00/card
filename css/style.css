@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(151, 149, 146);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Anek Malayalam", sans-serif;
+}
+.card {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 0 10px;
+  position: absolute;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.stastitic {
+  background-color: rgb(6, 107, 20);
+  width: 100%;
+  height: 100px;
+  display: flex;
+ position: absolute;
+ bottom: 0;
+ right: 0;
+}
+.data {
+  width: calc(100% / 3);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 1px;
+}
+.main {
+  color: rgba(6, 87, 60, 0.377);
+}
+.top {
+  color: green;
+}
